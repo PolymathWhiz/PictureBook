@@ -4,15 +4,12 @@
     <string name="b">Butterfly</string>
     <string name="c">Cat</string>
     <string name="d">Dog</string>
-    <string name="e">Earth</string>
+    <string name="e">Eagle</string>
     <string name="f">Fish</string>
     <string name="g">Goat</string>
     <string name="h">Hen</string>
-    <string name="i">Ant</string>
-    <string name="j">Ant</string>
-    <string name="k">Ant</string>
-    <string name="l">Ant</string>
-    <string name="m">Ant</string>
-    <string name="n">Ant</string>
-    <string name="o">Ant</string>
+    <string name="i">Iguana</string>
+    <string name="j">Jaguar</string>
+    <string name="k">Koal</string>
+    <string name="l">Lion</string>
 </resources>

@@ -9,45 +9,44 @@
     <GridLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:rowCount="3"
+        android:rowCount="4"
         android:columnCount="3">
 
             <LinearLayout
                 android:orientation="vertical"
                 android:layout_height="wrap_content"
-                android:layout_width="wrap_content">
+                android:layout_width="wrap_content"
+                android:layout_row="0"
+                android:layout_column="0">
 
                 <ImageView
                     android:layout_width="200px"
                     android:layout_height="200px"
-                    android:layout_row="0"
-                    android:layout_column="0"
-                    android:layout_marginRight="50px"
+                    android:padding="20px"
                     android:src="@drawable/a"
                     />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_column="0"
                     android:layout_gravity="center"
-                    android:layout_row="0"
                     android:gravity="center"
-                    android:text="Ant" />
+                    android:text="@string/a"
+                    />
             </LinearLayout>
 
 
             <LinearLayout
                 android:orientation="vertical"
+                android:layout_row="0"
+                android:layout_column="1"
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content">
 
                 <ImageView
                     android:layout_width="200px"
                     android:layout_height="200px"
-                    android:layout_row="0"
-                    android:layout_column="1"
-                    android:layout_marginRight="50px"
+                    android:padding="20px"
                     android:src="@drawable/b"
                     />
 
@@ -55,21 +54,22 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/b"
-                    android:layout_row="0"
-                    android:layout_column="1"
+                    android:layout_gravity="center"
+                    android:gravity="center"
                     />
             </LinearLayout>
 
             <LinearLayout
                 android:orientation="vertical"
                 android:layout_height="wrap_content"
-                android:layout_width="wrap_content">
+                android:layout_width="wrap_content"
+                android:layout_row="0"
+                android:layout_column="2">
 
                 <ImageView
                     android:layout_width="200px"
                     android:layout_height="200px"
-                    android:layout_row="0"
-                    android:layout_column="2"
+                    android:padding="20px"
                     android:src="@drawable/c"
                     />
 
@@ -77,31 +77,29 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/c"
-                    android:layout_row="0"
-                    android:layout_column="2"
+                    android:layout_gravity="center"
+                    android:gravity="center"
                     />
             </LinearLayout>
 
             <LinearLayout
                 android:orientation="vertical"
                 android:layout_height="wrap_content"
-                android:layout_width="wrap_content">
+                android:layout_width="wrap_content"
+                android:layout_row="1"
+                android:layout_column="0">
 
                 <ImageView
                     android:layout_width="200px"
                     android:layout_height="200px"
-                    android:layout_row="1"
-                    android:layout_column="0"
-                    android:layout_marginRight="50px"
+                    android:padding="20px"
                     android:src="@drawable/d"
                     />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_column="0"
                     android:layout_gravity="center"
-                    android:layout_row="1"
                     android:gravity="center"
                     android:text="@string/d" />
             </LinearLayout>
@@ -109,37 +107,38 @@
 
             <LinearLayout
                 android:orientation="vertical"
+                android:layout_row="1"
+                android:layout_column="1"
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content">
 
                 <ImageView
                     android:layout_width="200px"
                     android:layout_height="200px"
-                    android:layout_row="1"
-                    android:layout_column="1"
-                    android:layout_marginRight="50px"
-                    android:src="@drawable/d"
+                    android:padding="20px"
+                    android:src="@drawable/e"
                     />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="st"
-                    android:layout_row="1"
-                    android:layout_column="1"
+                    android:text="@string/e"
+                    android:layout_gravity="center"
+                    android:gravity="center"
                     />
             </LinearLayout>
 
             <LinearLayout
                 android:orientation="vertical"
+                android:layout_row="1"
+                android:layout_column="2"
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content">
 
                 <ImageView
                     android:layout_width="200px"
                     android:layout_height="200px"
-                    android:layout_row="1"
-                    android:layout_column="2"
+                    android:padding="20px"
                     android:src="@drawable/f"
                     />
 
@@ -147,47 +146,47 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/f"
-                    android:layout_row="1"
-                    android:layout_column="2"
+                    android:layout_gravity="center"
+                    android:gravity="center"
                     />
             </LinearLayout>
 
             <LinearLayout
                 android:orientation="vertical"
+                android:layout_row="2"
+                android:layout_column="0"
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content">
 
                 <ImageView
                     android:layout_width="200px"
                     android:layout_height="200px"
-                    android:layout_row="2"
-                    android:layout_column="0"
-                    android:layout_marginRight="50px"
+                    android:padding="20px"
                     android:src="@drawable/g"
                     />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_column="0"
                     android:layout_gravity="center"
-                    android:layout_row="2"
                     android:gravity="center"
-                    android:text="@string/g" />
+                    android:text="@string/g"
+
+                    />
             </LinearLayout>
 
 
             <LinearLayout
                 android:orientation="vertical"
                 android:layout_height="wrap_content"
-                android:layout_width="wrap_content">
+                android:layout_width="wrap_content"
+                android:layout_row="2"
+                android:layout_column="1">
 
                 <ImageView
                     android:layout_width="200px"
                     android:layout_height="200px"
-                    android:layout_row="2"
-                    android:layout_column="1"
-                    android:layout_marginRight="50px"
+                    android:padding="20px"
                     android:src="@drawable/h"
                     />
 
@@ -195,32 +194,102 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/h"
-                    android:layout_row="2"
-                    android:layout_column="1"
+                    android:gravity="center"
+                    android:layout_gravity="center"
                     />
             </LinearLayout>
 
             <LinearLayout
                 android:orientation="vertical"
+                android:layout_row="2"
+                android:layout_column="2"
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content">
 
                 <ImageView
                     android:layout_width="200px"
                     android:layout_height="200px"
-                    android:layout_row="2"
-                    android:layout_column="2"
-                    android:src="@drawable/a"
+                    android:padding="20px"
+                    android:src="@drawable/i"
                     />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Ant"
-                    android:layout_row="2"
-                    android:layout_column="2"
+                    android:text="@string/i"
+                    android:layout_gravity="center"
+                    android:gravity="center"
                     />
             </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_row="3"
+            android:layout_column="0"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content">
+
+            <ImageView
+                android:layout_width="200px"
+                android:layout_height="200px"
+                android:padding="20px"
+                android:src="@drawable/j"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/j"
+                android:layout_gravity="center"
+                android:gravity="center"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_row="3"
+            android:layout_column="1"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content">
+
+            <ImageView
+                android:layout_width="200px"
+                android:layout_height="200px"
+                android:padding="20px"
+                android:src="@drawable/k"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/k"
+                android:layout_gravity="center"
+                android:gravity="center"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_row="3"
+            android:layout_column="2"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content">
+
+            <ImageView
+                android:layout_width="200px"
+                android:layout_height="200px"
+                android:padding="20px"
+                android:src="@drawable/l"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/l"
+                android:layout_gravity="center"
+                android:gravity="center"
+                />
+        </LinearLayout>
 
     </GridLayout>
 </ScrollView>
