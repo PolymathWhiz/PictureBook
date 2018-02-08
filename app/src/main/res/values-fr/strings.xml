@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">livre d'image</string>
+    <string name="a">Une</string>
+    <string name="b">Papillon</string>
+    <string name="c">Chat</string>
+    <string name="d">Chien</string>
+    <string name="e">Aigle</string>
+    <string name="f">Poisson</string>
+    <string name="g">Chèvre</string>
+    <string name="h">Poule</string>
+    <string name="i">Iguane</string>
+    <string name="j">Jaguar</string>
+    <string name="k">Koala</string>
+    <string name="l">Lion</string>
+</resources>
