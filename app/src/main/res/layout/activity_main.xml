@@ -10,7 +10,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:rowCount="4"
-        android:columnCount="3">
+        android:columnCount="3"
+        android:padding="30dp">
 
             <LinearLayout
                 android:orientation="vertical"
